@@ -33,11 +33,13 @@
 		<div class="branding">
 			<div class="container-fluid">
 				<nav class="main-nav navbar navbar-expand-lg">
-          <!-- icon at top left, could replace with ISBA logo if needed. check about size in css theme -->
+          <!-- icon at top left, could replace with ISBA logo if needed. check about size in css theme
           <div class="site-logo"><a class="scrollto" href="#hero-block"><img class="logo-icon" src="assets/images/isba2026_logo-full.jpg" alt="logo"></a></div>
+          -->
           <!-- button for registration; could turn on only when registration goes live
 					<div class="navbar-btn order-lg-2"><a class="btn btn-primary btn-lg" href="#tickets-section" target="_blank">Register</a></div>
 					-->
+          
 					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
 						<span class="navbar-toggler-icon"></span>      
 					</button>
@@ -65,17 +67,28 @@
 
   
 
-	<div id="hero-block" class="hero-block">
-		<div id="hero-carousel" class="hero-carousel carousel slide carousel-fade" data-ride="carousel">
-			<div class="carousel-inner">
-				<div class="carousel-item-1 carousel-item active">
-				</div>
-			</div>
-		</div>
-    <div class="hero-block-mask"></div>
-    
-    </div> <!--//hero-block-mask-->
-	</div><!--//hero-block-->
+  <section id="hero">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-6 col-md-6">
+          <div class="container">
+            <div class="hero-text-block">
+              <h1 class="hero-heading mb-2">The 2026 ISBA World Meeting</h1>
+              <div class="hero-meta mb-3"><i class="far fa-calendar-alt me-2"></i>June 28th - July 3rd, 2026</div>
+              <div class="hero-meta mb-3"><i class="fas fa-map-marker-alt mx-2"></i><a target="_blank" rel="noopener noreferrer" href="https://www.japan.travel/en/destinations/tokai/aichi/nagoya-station-and-around/">Nagoya, Japan</a></div>
+              <div class="hero-cta"><a target="_blank" rel="noopener noreferrer" href="https://forms.gle/5G3xJWJaaE6QKFbj9" class="btn btn-primary btn-lg d-block d-md-inline-block" target="_blank">Submit Invited Session Proposal</a></div>
+            </div><!--//hero-text-block-->
+          </div><!--//container-->
+        </div><!--//column-->
+        
+        <div class="col-6 col-md-6" style="center">
+          <div class="container">
+            <img src="assets/images/isba2026_logo-full.jpg" class="img-fluid">
+          </div>
+        </div>
+      </div> <!--//column-->
+    </div>
+  </section>
 
 	<div class="stats-block theme-bg-primary text-white py-4 text-center">
 		<div class="container">
@@ -113,7 +126,7 @@
 			<h2 class="section-heading text-center mb-3">ABOUT</h3>
 			<div class="section-intro single-col-max mx-auto mb-4">
 			  <p align="justify">
-			  The 18th World Meeting of the International Society for Bayesian Analysis will take place June 28 - July 3, 2026 in Nagoya, Japan at <a href="https://www.winc-aichi.jp/en/">WINC AICHI</a>. The purpose of the meeting is to bring together the diverse international community of investigators in statistics who develop and use Bayesian methods to share recent findings and to present new and challenging problems.
+			  The 18th World Meeting of the International Society for Bayesian Analysis will take place June 28 - July 3, 2026 in Nagoya, Japan at <a target="_blank" rel="noopener noreferrer" href="https://www.winc-aichi.jp/en/">WINC AICHI</a>. The purpose of the meeting is to bring together the diverse international community of investigators in statistics who develop and use Bayesian methods to share recent findings and to present new and challenging problems.
 			  </p>
         </div>
       <hr>
@@ -126,13 +139,44 @@
 	
   <section id="participate-section" class="participate-section section theme-bg-light">
     <div class="container">
-      <h2 class="section-heading text-center mb-3">PARTICIPATE</h3>
+      <h2 class="section-heading text-center mb-3">PARTICIPATE</h2>
       <div class="section-intro single-col-max mx-auto mb-4">
+        <h3 class="section-heading text-center mb-3">Invited Sessions</h3>
         <p align="justify">
-        The call for invited sessions will be announced in March 2025. Calls for contributed talks and posters will be announced in Fall 2025. Registration information will be available in Fall 2025.
+        The <a href="#committees-section">Scientific Committee</a> welcomes proposals for invited sessions.
+        Invited sessions are 90-minutes long and feature (i) <b>three (3)</b> speakers, an optional discussant, and a session chair; or (ii) a panel discussion with between <b>three (3) and six (6)</b> panelists and a session chair who will moderate the discussion.
+        All invited talks and panel discussions are expected to be delivered in-person. Organizers should confirm availability of session participants prior to submitting a proposal.
+        Please submit proposals <a target="_blank" rel="noopener noreferrer" href="https://forms.gle/5G3xJWJaaE6QKFbj9">this link</a>.
+        Proposals for invited session will be accepted until <b>11:59pm (AoE) on 6 July, 2026</b>.
+        Decisions will be announced later in Fall 2025.
+        
+        Please note that the <b>one-oral-presentation-per-person</b> policy will be in effect: Each participant may give at most <b>one (1)</b> oral presentation.
+        All talks, discussions, panel discussions, and posters count as an oral presentation.
+        Limited exceptions to this policy may be made at the discretion of the Program Council to accommodate program needs.
+        </p>
+        <p align="center">
+        <a target="_blank" rel="noopener noreferrer" href="https://forms.gle/5G3xJWJaaE6QKFbj9" class="btn btn-primary btn-lg " target="_blank">Submit Invited Session Proposal</a>
+        </p>
+      </div>
+      <hr>
+      <div class="section-intro single-col-max mx-auto mb-4">
+        <h3 class="section-heading text-center mb-3">Contributed Talks & Posters</h3>
+        <p align="justify">
+        The call for Contributed Talks and Posters will open in Fall 2025, after Invited Session decisions are announced.
+        </p>
+      </div>
+      <div class="section-intro single-col-max mx-auto mb-4">
+        <h3 class="section-heading text-center mb-3">Registration</h3>
+        <p align="justify">
+        Registration information will be available in Fall 2025.
         </p>
       </div>
     </div>
+    
+    <div class="container">
+      <h3
+    </div>
+    
   </section>
   
   <section id="plenary-section" class="speakers-section section">
